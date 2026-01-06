@@ -8,7 +8,7 @@ Summary of the Invention
 The present invention generally relates to Computational Neuroscience / Adaptive Signal Processing, and more specifically to a system and method as defined in the claims.
 
 Detailed Description
-This competition focuses on developing novel algorithms to decode speech directly from brain activity. Participants are provided with a dataset of neural spiking activity recorded from a research participant attempting to speak. The challenge is to create a model that can accurately predict the words being spoken from this neural data. TASK: Invent a novel technical solution to solve this specific bounty.
+This competition focuses on developing novel algorithms to decode speech directly from brain activity. Participants are provided with a dataset of neural spiking activity recorded from a research participant attempting to speak. The challenge is to create a model that can accurately predict the words being spoken from this neural data. 
 
 System Requirements and Environment Setup
 To implement the Neuro-Phonetic Multi-Scale Transformer (NP-MST), the development environment requires Python 3.10 or higher. Essential libraries include PyTorch 2.1+, NumPy, SciPy for signal processing, and the Hugging Face 'transformers' and 'tokenizers' libraries for linguistic modeling. Given the high dimensionality of neural spiking data (often 256+ channels at 1ms resolution), a GPU with at least 24GB VRAM (e.g., NVIDIA RTX 4090 or A100) is necessary to handle large batch sizes and windowed temporal convolutions.
